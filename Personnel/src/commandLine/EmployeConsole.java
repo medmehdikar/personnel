@@ -8,9 +8,8 @@ import commandLineMenus.Option;
 import personnel.Employe;
 import personnel.GestionPersonnel;
 
-
 public class EmployeConsole 
-{
+{	
 	private Option afficher(final Employe employe)
 	{
 		return new Option("Afficher l'employé", "l", () -> {System.out.println(employe);});
@@ -30,9 +29,7 @@ public class EmployeConsole
 
 	private Option changerNom(final Employe employe)
 	{
-		return new Option("Changer le nom", "n", 
-				() -> {employe.setNom(getString("Nouveau nom : "));}
-			);
+		return new Option("Changer le nom", "n", () -> {employe.setNom(getString("Nouveau nom : "));});
 	}
 	
 	private Option changerPrenom(final Employe employe)
@@ -49,6 +46,4 @@ public class EmployeConsole
 	{
 		return new Option("Changer le password", "x", () -> {employe.setPassword(getString("Nouveau password : "));});
 	}
-	
-
 }

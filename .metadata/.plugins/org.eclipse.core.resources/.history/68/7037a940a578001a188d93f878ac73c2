@@ -1,0 +1,9 @@
+package personnel;
+
+
+public interface Passerelle 
+{
+	// constructeur de GestionPersonnel
+	public GestionPersonnel getGestionPersonnel();
+	public void sauvegarderGestionPersonnel(GestionPersonnel gestionPersonnel)  throws SauvegardeImpossible;
+}

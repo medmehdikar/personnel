@@ -1,0 +1,5 @@
+package commandLineMenus.rendering.examples.util;
+
+public class InOut {
+
+}

@@ -1,0 +1,8 @@
+package commandLineMenus;
+
+public class Option {
+
+	public Option(String nom, String lettre, Object b) {
+		
+	}
+}
