@@ -32,7 +32,6 @@ class testLigue
 		assertEquals(admin, ligue.getAdministrateur());
 	}
 	
-	
 	@Test 
 	void setroot()
 	{

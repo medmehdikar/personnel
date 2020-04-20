@@ -32,11 +32,11 @@ class testLigue
 		assertEquals(admin, ligue.getAdministrateur());
 	}
 	
-	
-	@Test 
-	void setroot()
+	@Test root()
 	{
 		Ligue ligue = new Ligue("Fléchettes");
 		Employe root = ligue.addEmploye("purificator", "purificator", "THE@gmail.com", "1548"); 
+		ligue.setAdministrateur(admin);
+		assertEquals(admin, ligue.getAdministrateur());
 	}
 }

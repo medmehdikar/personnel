@@ -27,16 +27,6 @@ class testLigue
 	void setAdmin()
 	{
 		Ligue ligue = new Ligue("Fléchettes");
-		Employe admin = ligue.addEmploye("test", "test", "mail@gmail.com", "asert"); 
-		ligue.setAdministrateur(admin);
-		assertEquals(admin, ligue.getAdministrateur());
-	}
-	
-	
-	@Test 
-	void setroot()
-	{
-		Ligue ligue = new Ligue("Fléchettes");
-		Employe root = ligue.addEmploye("purificator", "purificator", "THE@gmail.com", "1548"); 
+		Employe admin = ligue.addEmploye("test", "test", "mail@gmail.com", "asert")
 	}
 }

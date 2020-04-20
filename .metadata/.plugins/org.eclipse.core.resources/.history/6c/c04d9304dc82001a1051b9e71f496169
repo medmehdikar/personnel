@@ -1,0 +1,10 @@
+package application;
+
+import javax.swing.JPanel; 
+
+public class Accueil {
+	public Accueil(){
+		
+		//Page d'accueil, contenu à définir, une longue page	
+	}
+}
